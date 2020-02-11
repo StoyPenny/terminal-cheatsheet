@@ -1,5 +1,7 @@
 # File Management
+
 A collection of useful terminal commands that will enable you to more effectively manage the files on your machine or server. 
+
 ---------------
 <br><br>
 

@@ -1,2 +1,2 @@
-# terminal-cheatsheet
-Terminal Command Cheat Sheet for Web Developers
+# Terminal Cheatsheet
+Terminal Command Cheat Sheet for Web Developers.

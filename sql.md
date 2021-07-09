@@ -370,9 +370,9 @@ Use the following command to easily switch themes without accessing the WP Admin
 
 ### Find Posts with Content
 Find posts/pages with specific content. 
-`SELECT * FROM wp_postmeta WHERE meta_value LIKE '%bontera%'`
-`SELECT * FROM wp_posts WHERE post_content LIKE '%bontera%'`
+```SELECT * FROM wp_postmeta WHERE meta_value LIKE '%bontera%'```
+```SELECT * FROM wp_posts WHERE post_content LIKE '%bontera%'```
 <br>
 
 ### Get Page Title by ID
-`SELECT post_title FROM wp_posts WHERE id = 12860`
+```SELECT post_title FROM wp_posts WHERE id = 12860```

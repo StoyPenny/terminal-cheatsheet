@@ -366,13 +366,13 @@ UPDATE wp_comments SET comment_content = REPLACE(comment_content, 'â€¦', '�
 ### Switch Themes
 Use the following command to easily switch themes without accessing the WP Admin.
 <pre>UPDATE wp_options SET option_value = '<b>twentynineteen</b>' WHERE option_name = 'template' or option_name = 'stylesheet';</pre>
-
+<br>
 
 ### Find Posts with Content
 Find posts/pages with specific content. 
 `SELECT * FROM wp_postmeta WHERE meta_value LIKE '%bontera%'`
 `SELECT * FROM wp_posts WHERE post_content LIKE '%bontera%'`
-
+<br>
 
 ### Get Page Title by ID
 `SELECT post_title FROM wp_posts WHERE id = 12860`

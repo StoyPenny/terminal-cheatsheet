@@ -75,3 +75,18 @@ Use this function to copy files from within a docker container onto your local m
 docker cp <container-id>:/path/to/container/files/ /local/machine/destination/
 docker cp f1e1306559d7:/var/www/html/ ~/Desktop/DockerBAK/ // This is an example
 ```
+<br>
+
+### Show All Containers
+Show all of the currently active containers and access their ID's. 
+```cmd
+docker ps
+```
+<br>
+
+
+### Execute Commands Inside of Container
+You can run commands inside of container with the following, replacing the CONTAINER_ID with the ID of the container and replacing YOUR_TERMINAL_COMMAND with the command that you want to execute inside of the container. 
+```cmd
+docker exec -it <CONTAINER_ID> <YOUR_TERMINAL_COMMAND>
+```

@@ -107,11 +107,11 @@ Note: You can create a git branch first, and then later have it turned into a Mu
 ### Create new Multidev from the Command Line
 You can technically also create a new multidev from the command line, however, this is not recommended. For more details, view the official documentation. 
 
-<Site> = the pantheon site or project you are working on
+\<Site\> = the pantheon site or project you are working on
 
-<env> = The enviroment you would like to clone from, likely dev or live
+\<env\> = The enviroment you would like to clone from, likely dev or live
 
-<multidev> = the name of your new multidev environment
+\<multidev\> = the name of your new multidev environment
 
 `terminus multidev:create --no-db --no-files -- <site>.<env> <multidev>`
 

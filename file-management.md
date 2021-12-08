@@ -105,6 +105,7 @@ tar -czf file.tar.gz inputfile1 inputfile2
 Uncompress a gzipped archive.
 ```cmd
 tar -xzf file.tar.gz
+```
 
 ### Get Directory Size
 Find the size of a directory and its subfolders.

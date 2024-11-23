@@ -112,3 +112,15 @@ Find the size of a directory and its subfolders.
 ```cmd
  du -sh /my-directory/
  ```
+
+
+---
+
+
+## Fun Stuff
+
+### Split CSV File by N* Rows
+Split a single file into multiple numbered files that keep the header. 
+```bash
+cat ~/bigfile.csv | parallel --header : --pipe -N49 'cat >split_file_{#}.csv'
+```

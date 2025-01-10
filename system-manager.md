@@ -47,6 +47,16 @@ Running this will show the space usage of each folder in the current directory. 
 ```cmd
 du -sh *
 ```
+```cmd
+du -sh * | sort -rh |
+```
+<br>
+
+### Filesystem Disk Usage
+View all disks and their respective usage. 
+```cmd
+df -h
+```
 <br>
 
 ### Get Hardware Information
